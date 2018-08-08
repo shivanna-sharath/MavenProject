@@ -1,6 +1,0 @@
-
-3squid:S2095"Close this "ResultSet".(Ð¢€—ùÿÿÿÿ
-dsquid:S2077"H"inp" is provided externally to the method and not sanitized before use.(Ð¢€—ùÿÿÿÿ
-Csquid:S1481"'Remove this unused "rs" local variable.(Ð¢€—ùÿÿÿÿ
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žÝç¨üÿÿÿÿ
-Rsquid:S1854"6Remove this useless assignment to local variable "rs".(Ð¢€—ùÿÿÿÿ

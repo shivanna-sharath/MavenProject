@@ -1,11 +1,0 @@
-
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÃÅß¢
-Vsquid:S1213#"8Move this variable to comply with Java Code Conventions.(Àõ¶8Âµã Ñ,
-Usquid:S1213$"8Move this variable to comply with Java Code Conventions.(¤ø¤18Âµã Ñ,
-[squid:S1213%"8Move this variable to comply with Java Code Conventions.(„Ùšıÿÿÿÿ8Âµã Ñ,
-Vsquid:S1213&"8Move this variable to comply with Java Code Conventions.(ÑÙı¸8Âµã Ñ,
-rsquid:S00116"SRename this field "PlayerId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿõÅÍ8Âµã Ñ,
-ssquid:S00116#"TRename this field "CountryId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àõ¶8Âµã Ñ,
-ssquid:S00116$"URename this field "PlayerName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ø¤18Âµã Ñ,
-wsquid:S00116%"SRename this field "MostRuns" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ùšıÿÿÿÿ8Âµã Ñ,
-vsquid:S00116&"WRename this field "WicketsTaken" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÙı¸8Âµã Ñ,

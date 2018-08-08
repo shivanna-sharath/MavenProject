@@ -1,8 +1,0 @@
-package com.mindtree.dao;
-
-public class DeleteFromDataBase {
-	public void DeleteDataBaseMet() {
-		
-	}
-
-}

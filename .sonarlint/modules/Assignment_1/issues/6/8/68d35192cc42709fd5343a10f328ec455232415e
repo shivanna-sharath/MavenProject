@@ -1,15 +1,0 @@
-
-ksquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(íòÜ08€ÇüĞ,
-lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡·ù¦8€ÇüĞ,
-]
-squid:S106";Replace this usage of System.out or System.err by a logger.(™Óƒ¦şÿÿÿÿ8«È÷üĞ,
-1squid:S1220""Move this file to a named package.
-Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8€ÇüĞ,
-Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8€ÇüĞ,
-W
-squid:S106";Replace this usage of System.out or System.err by a logger.(ˆéÇ~8°‘„ıĞ,
-W
-squid:S106";Replace this usage of System.out or System.err by a logger.(è«8«È÷üĞ,
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(‚¨Ö§8°‘„ıĞ,
-Vsquid:S1118'":Add a private constructor to hide the implicit public one.(ÈõõÂÿÿÿÿÿ

@@ -1,10 +1,0 @@
-
-|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Â×ìâüÿÿÿÿ8‹¥˜Ñ,
-Jsquid:S1905'"'Remove this unnecessary cast to "Date".(¨»ëßûÿÿÿÿ8‹¥˜Ñ,
-tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(°˜¢Úşÿÿÿÿ
-]
-squid:S106A";Replace this usage of System.out or System.err by a logger.(ëñ‚ºøÿÿÿÿ8‹¥˜Ñ,
-Psquid:S1118":Add a private constructor to hide the implicit public one.(†Éƒ0
-qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(–ìª¹úÿÿÿÿ8‹¥˜Ñ,
-]
-squid:S106;";Replace this usage of System.out or System.err by a logger.(àĞ‹èıÿÿÿÿ8‹¥˜Ñ,

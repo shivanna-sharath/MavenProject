@@ -1,16 +1,0 @@
-
-Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-]squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-1squid:S1220""Move this file to a named package.
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ø· øÿÿÿÿ
-V
-squid:S106/";Replace this usage of System.out or System.err by a logger.(¦“É„øÿÿÿÿ
-Qsquid:S1161":Add the "@Override" annotation above this method signature(“–ış
-Qsquid:S11188":Add a private constructor to hide the implicit public one.(­ñ÷œ
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(ôÀÔ¬ûÿÿÿÿ
-?squid:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Qsquid:S1161":Add the "@Override" annotation above this method signature(“–ış
-]squid:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ˆ»Ú

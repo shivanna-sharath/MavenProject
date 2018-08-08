@@ -1,12 +1,0 @@
-
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(û„ð¶8©ò¹¡Ñ,
-rsquid:S00100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶±Î³þÿÿÿÿ8©ò¹¡Ñ,
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(…Ë³…8©ò¹¡Ñ,
-zsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ø®¡úÿÿÿÿ8©ò¹¡Ñ,
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(ç¤«¦8©ò¹¡Ñ,
-zsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘áüñÿÿÿÿÿ8©ò¹¡Ñ,
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(ö÷×£8©ò¹¡Ñ,

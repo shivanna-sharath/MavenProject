@@ -1,37 +1,0 @@
-
-nsquid:S001175"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¿Çœ
-V
-squid:S106g";Replace this usage of System.out or System.err by a logger.(‚»Í”øÿÿÿÿ
-V
-squid:S106)";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
-ksquid:S1132d"OMove the "Pinterest" string literal on the left side of this string comparison.(­ÿéÄþÿÿÿÿ
-V
-squid:S106+";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
-V
-squid:S106!";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
-gsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(µ¹è‹úÿÿÿÿ
-Nsquid:S11354"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
-hsquid:UselessImportCheck"DRemove this unused import 'org.openqa.selenium.interactions.Action'.(›Žóž
-Qsquid:S18545":Remove this useless assignment to local variable "EleLis".(Î¿Çœ
-osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷¹°×
-V
-squid:S106%";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
-bsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(˜¶ãÁ
-Q
-squid:S106";Replace this usage of System.out or System.err by a logger.(ëë¢Ø
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ðå¥½üÿÿÿÿ
-P
-squid:S106";Replace this usage of System.out or System.err by a logger.(œ™À
-V
-squid:S106#";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
-o
-squid:S135_"YReduce the total number of break and continue statements in this loop to use at most one.(®×Ðñ
-Q
-squid:S106";Replace this usage of System.out or System.err by a logger.(Î’ÛÚ
-V
-squid:S106'";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
-psquid:S1192"YDefine a constant instead of duplicating this literal "//li[@id='menu-item-33']" 3 times.(„ÓØ
-ksquid:S1132b"TMove the "More Details >" string literal on the left side of this string comparison.(ØŠ¦Æ
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
-Osquid:UselessParenthesesCheck7"!Remove those useless parentheses.(àõùÿÿÿÿÿÿ

@@ -1,7 +1,0 @@
-
-[squid:S1854"8Remove this useless assignment to local variable "stmt".(¦èåÍúÿÿÿÿ8¡Œ·ƒÑ,
-;squid:S2095"Close this "Connection".(½¶éªşÿÿÿÿ8óú¸ƒÑ,
-Lsquid:S1481")Remove this unused "stmt" local variable.(¦èåÍúÿÿÿÿ8¡Œ·ƒÑ,
-osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡Çûã
-:squid:S2095"Close this "Statement".(¦èåÍúÿÿÿÿ8óú¸ƒÑ,
-Xsquid:S1118":Add a private constructor to hide the implicit public one.(àªÅö8™Ö¬ƒÑ,

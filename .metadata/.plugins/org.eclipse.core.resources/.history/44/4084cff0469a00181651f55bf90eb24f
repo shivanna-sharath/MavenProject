@@ -1,8 +1,0 @@
-package com.mindtree.dao;
-
-public class ChangeData {
-	public void ChangeDataMet() {
-		
-	}
-
-}

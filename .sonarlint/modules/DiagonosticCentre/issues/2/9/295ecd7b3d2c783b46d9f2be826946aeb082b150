@@ -1,7 +1,0 @@
-
-3squid:S2095"Close this "ResultSet".(ç®±ùÿÿÿÿ
-Rsquid:UselessImportCheck"/Remove this unused import 'java.sql.Timestamp'.(èò½+
-fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’é¦ÿ
-fsquid:S2077"J"tname" is provided externally to the method and not sanitized before use.(ç®±ùÿÿÿÿ
-Nsquid:UselessImportCheck"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê
-[squid:UselessImportCheck	"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ

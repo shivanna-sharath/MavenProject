@@ -1,39 +1,0 @@
-
-Q
-squid:S1064";Replace this usage of System.out or System.err by a logger.(Ú‚àé
-psquid:UselessImportCheck"GRemove this unused import 'com.mindtree.exception.IvalidDateException'.(úÑÂŞıÿÿÿÿ
-.squid:S2095"Close this "Statement".(ü²ª±
-3squid:S2095"Close this "Statement".(ˆ­Ãøÿÿÿÿ
-i
-squid:S134<"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ÿ¯š÷ûÿÿÿÿ
-dsquid:S2077/"H"inp" is provided externally to the method and not sanitized before use.(É“éàÿÿÿÿÿ
-V
-squid:S106'";Replace this usage of System.out or System.err by a logger.(ü­Áüÿÿÿÿ
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏæÊäùÿÿÿÿ
-dsquid:S2077"H"dat" is provided externally to the method and not sanitized before use.(è­õîıÿÿÿÿ
-3squid:S2095/"Close this "ResultSet".(É“éàÿÿÿÿÿ
-V
-squid:S106=";Replace this usage of System.out or System.err by a logger.(›’“„üÿÿÿÿ
-Fsquid:S00108K")Either remove or fill this block of code.(Äíàêşÿÿÿÿ
-V
-squid:S1062";Replace this usage of System.out or System.err by a logger.(ë• úÿÿÿÿ
-V
-squid:S106#";Replace this usage of System.out or System.err by a logger.(ÌØ‚ıÿÿÿÿ
-jsquid:UselessImportCheck
-"FRemove this unused import 'javax.sound.midi.InvalidMidiDataException'.(¥Ş¸‚
-_squid:S2077""H"inp" is provided externally to the method and not sanitized before use.(‹ééõ
-V
-squid:S106C";Replace this usage of System.out or System.err by a logger.(ëŠ€¸úÿÿÿÿ
-Q
-squid:S106(";Replace this usage of System.out or System.err by a logger.(å”¨˜
-`squid:UselessImportCheck"=Remove this unused import 'java.util.InputMismatchException'.(İ§1
-Q
-squid:S106";Replace this usage of System.out or System.err by a logger.(İÕ“Â
-V
-squid:S1063";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-.squid:S2095;"Close this "ResultSet".(é™®à
-Q
-squid:S106&";Replace this usage of System.out or System.err by a logger.(‚»î
-Asquid:S1166K"%Either log or rethrow this exception.(Äíàêşÿÿÿÿ
-3squid:S2095"Close this "ResultSet".(è­õîıÿÿÿÿ
-.squid:S2095""Close this "ResultSet".(‹ééõ

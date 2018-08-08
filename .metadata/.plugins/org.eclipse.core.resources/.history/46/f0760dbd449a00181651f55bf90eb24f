@@ -1,9 +1,0 @@
-package com.mindtree.manager;
-
-public class DeleteFromTable {
-	public void DeleteFromTableMet() {
-		DeleteDataBase a=new DeleteDataBase();
-		a.DeleteDataBaseMet(); 
-	}
-
-}

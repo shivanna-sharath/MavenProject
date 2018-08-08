@@ -1,95 +1,0 @@
-
-bsquid:S11927"FDefine a constant instead of duplicating this literal "EXIST" 6 times.(è÷ıøøÿÿÿÿ
-Jsquid:S1199“"-Extract this nested code block into a method.(„™´àøÿÿÿÿ
-bsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(±À‡ê
-t
-squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(öÉìòúÿÿÿÿ
-i
-squid:S1342"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
-i
-squid:S134_"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
-e
-squid:S134™"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(×ÿ£œ
-Q
-squid:S106";Replace this usage of System.out or System.err by a logger.(ëæÙ²
-Q
-squid:S106";Replace this usage of System.out or System.err by a logger.(šÜ¢À
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(Õ¶µøÿÿÿÿ
-Q
-squid:S106";Replace this usage of System.out or System.err by a logger.(ù÷Ç÷
-V
-squid:S106)";Replace this usage of System.out or System.err by a logger.(‹éäúÿÿÿÿ
-V
-squid:S106*";Replace this usage of System.out or System.err by a logger.(¿Ãì„ûÿÿÿÿ
-V
-squid:S106+";Replace this usage of System.out or System.err by a logger.(ãı¼’üÿÿÿÿ
-P
-squid:S1063";Replace this usage of System.out or System.err by a logger.(Õ§†
-Q
-squid:S106:";Replace this usage of System.out or System.err by a logger.(¯¼Ô›
-V
-squid:S106A";Replace this usage of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
-V
-squid:S106G";Replace this usage of System.out or System.err by a logger.(Úé·éşÿÿÿÿ
-Q
-squid:S106N";Replace this usage of System.out or System.err by a logger.(ìíÒˆ
-Q
-squid:S106`";Replace this usage of System.out or System.err by a logger.(‘ ˆû
-Q
-squid:S106h";Replace this usage of System.out or System.err by a logger.(¯¼Ô›
-V
-squid:S106w";Replace this usage of System.out or System.err by a logger.(Úé·éşÿÿÿÿ
-Q
-squid:S106~";Replace this usage of System.out or System.err by a logger.(ìíÒˆ
-W
-squid:S106";Replace this usage of System.out or System.err by a logger.(»òĞ°øÿÿÿÿ
-W
-squid:S106”";Replace this usage of System.out or System.err by a logger.(¿Ãì„ûÿÿÿÿ
-W
-squid:S106•";Replace this usage of System.out or System.err by a logger.(ãı¼’üÿÿÿÿ
-Q
-squid:S106›";Replace this usage of System.out or System.err by a logger.(Õ§†
-R
-squid:S106¤";Replace this usage of System.out or System.err by a logger.(‘ ˆû
-R
-squid:S106­";Replace this usage of System.out or System.err by a logger.(ûƒâ
-W
-squid:S106½";Replace this usage of System.out or System.err by a logger.(»òĞ°øÿÿÿÿ
-Qsquid:S1141?"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Qsquid:S1141k"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-_squid:S1132K"HMove the "no" string literal on the left side of this string comparison.(Ç­ŠË
-`squid:S1132M"IMove the "yes" string literal on the left side of this string comparison.(áî²’
-_squid:S1132M"HMove the "no" string literal on the left side of this string comparison.(áî²’
-_squid:S1132{"HMove the "no" string literal on the left side of this string comparison.(Ç­ŠË
-`squid:S1132}"IMove the "yes" string literal on the left side of this string comparison.(áî²’
-_squid:S1132}"HMove the "no" string literal on the left side of this string comparison.(áî²’
-Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-Nsquid:S1135S"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-Nsquid:S1135n"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-† squid:MethodCyclomaticComplexity"ZThe Cyclomatic Complexity of this method "main" is 26 which is greater than 10 authorized.(ÛÛ¯ø
->squid:S1481 "&Remove this unused "s" local variable.(Ä–‚—
-Csquid:S1481©"&Remove this unused "s" local variable.(Æ®Š–úÿÿÿÿ
-@squid:S1481 ")Remove this unused "flag" local variable.(Ä‰ÒÓ
-Csquid:S1481%",Remove this unused "choice2" local variable.(ºò
-isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 95 to the 15 allowed.(ÛÛ¯ø
-Qsquid:S1118":Add a private constructor to hide the implicit public one.(´ÍıÃ
-Asquid:S1166R"%Either log or rethrow this exception.(ÒÖüšúÿÿÿÿ
-;squid:S1166Z"%Either log or rethrow this exception.(É‰èh
-Asquid:S1166m"%Either log or rethrow this exception.(ÒÖüšúÿÿÿÿ
-Bsquid:S1166ˆ"%Either log or rethrow this exception.(‡îÒãúÿÿÿÿ
-<squid:S1166‹"%Either log or rethrow this exception.(†“ä{
-=squid:S1166°"%Either log or rethrow this exception.(éºÃ—
-<squid:S1166³"%Either log or rethrow this exception.(†“ä{
-Asquid:S00108‹")Either remove or fill this block of code.(†“ä{
-Asquid:S00108³")Either remove or fill this block of code.(†“ä{
-Msquid:S1854 "5Remove this useless assignment to local variable "s".(Ä–‚—
-Rsquid:S1854©"5Remove this useless assignment to local variable "s".(Æ®Š–úÿÿÿÿ
-Osquid:S1854 "8Remove this useless assignment to local variable "flag".(Ä‰ÒÓ
-ssquid:S00117""VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÔŠ ùÿÿÿÿ
-‡squid:S1151("kReduce this switch case number of lines from 106 to at most 5, for example by extracting code into methods.(ÙÆäÊÿÿÿÿÿ
-‡squid:S1151“"jReduce this switch case number of lines from 38 to at most 5, for example by extracting code into methods.(„™´àøÿÿÿÿ
-†squid:S11511"jReduce this switch case number of lines from 44 to at most 5, for example by extracting code into methods.(ÙÆäÊÿÿÿÿÿ
-squid:S1151^"jReduce this switch case number of lines from 48 to at most 5, for example by extracting code into methods.(ç¿Ô
-†squid:S1151š"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(ÙÆäÊÿÿÿÿÿ
-squid:S1151£"iReduce this switch case number of lines from 8 to at most 5, for example by extracting code into methods.(ç¿Ô

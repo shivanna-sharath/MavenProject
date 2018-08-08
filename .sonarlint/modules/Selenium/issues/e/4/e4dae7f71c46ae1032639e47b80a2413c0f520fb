@@ -1,8 +1,0 @@
-
-Xsquid:S1854":Remove this useless assignment to local variable "driver".(ºÏ•Ü8ºõŠÕÐ,
-tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÀíÌ™ÿÿÿÿÿ
-isquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(ê²ñµ8ú¯™ÕÐ,
-Vsquid:UselessParenthesesCheck"!Remove those useless parentheses.(àõùÿÿÿÿÿÿ8þüÈÔÐ,
-Isquid:S1481"+Remove this unused "driver" local variable.(ºÏ•Ü8ºõŠÕÐ,
-isquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(†œÌù8­‘—ÕÐ,
-bsquid:HiddenFieldCheck"9Rename "driver" which hides the field declared at line 9.(ºÏ•Ü8á„¨ÕÐ,

@@ -1,13 +1,0 @@
-
-Xsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8õß®€Ñ,
-X
-squid:S106)";Replace this usage of System.out or System.err by a logger.(™Ôö·8 ‹‰Ñ,
-qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ø›ÓÄûÿÿÿÿ8õß®€Ñ,
-]
-squid:S106,";Replace this usage of System.out or System.err by a logger.(ÉòÌäûÿÿÿÿ8õß®€Ñ,
-Qsquid:S1118#":Add a private constructor to hide the implicit public one.(¤•Ïí
-1squid:S1220""Move this file to a named package.
-csquid:S2134"EStop extending the Thread class as the "run" method is not overridden(•ÃûÏ8õß®€Ñ,
-ƒsquid:S1217("`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(ÀçØ‰úÿÿÿÿ8õß®€Ñ,
-lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•ÃûÏ8õß®€Ñ,
-ƒsquid:S1217,"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(ÉòÌäûÿÿÿÿ8õß®€Ñ,
