@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<button id="1">Generate report</button><br><br>
+<button id="2">Add test</button><br>
+ <div style="text-align:center">
+ <h2 id="5">enter email address<input id="9" type="text" name="sharath" value="null"></h2><br><br>
+ <h2 id="6">enter phone number<input id="10" type="text" name="sharath" value="null"></h2><br><br>
+ <p id="7"></p><br><br>
+  <!--  <h2 id="7">enter date<input id="11" type="text" name="sharath" value="null"></h2><br><br>-->
+   <button id="8">Submit</button><br><br>
+    </div>
+   <p id="4"></p> 
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#8").click(function(){
+    	var check=$("#7").text();
+   		if(check==" enter test name"){
+   			alert("test is adding");
+   			var email= $("#9").val();
+   	    	var phone= $("#10").val();
+   	    	var date=$("#11").val();
+   	    	alert(email);
+   	        $.post("http://localhost:8080/add",
+   	        {
+   	        	var1:email,
+   	        	var2:phone,
+   	        	var3:date
+   	        },
+   	        function(data,status){
+   	            alert("Data: " + data + "\nStatus: " + status);
+   	            var newdata="<p id=\"4\"> "+Data+"</p>";
+   	           
+   	            $("#4").html(newdata);
+   	        });
+   	    }
+  
+else if(check==" enter date"){
+	alert("generating report");
+    	var email= $("#9").val();
+    	var phone= $("#10").val();
+    	var date=$("#11").val();
+    	alert(email);
+        $.post("http://localhost:8080/report",
+        {
+        	var1:email,
+        	var2:phone,
+        	var3:date
+        
+        },
+        function(data,status){
+            alert("Data: " + data + "\nStatus: " + status);
+            var newdata="<p id=\"4\">"+data+"</p>"
+            $("#4").html(newdata);
+        });
+    }
+});
+});
+$(document).ready(function(){
+	$("#2").click(function(){
+		$("#7").html(" <h3 id=\"7\">enter test name<input id=\"11\" type=\"text\" name=\"sharath\" value=\"null\"></h3><br><br>");
+
+	});
+	});
+$(document).ready(function(){
+	$("#1").click(function(){
+		$("#7").html(" <h3 id=\"7\">enter date<input id=\"11\" type=\"text\" name=\"sharath\" value=\"null\"></h3><br><br>");
+	
+	});
+});
+
+</script>
+
+ 
+</body>
+</html>
