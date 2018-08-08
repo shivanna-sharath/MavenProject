@@ -1,0 +1,47 @@
+class fibo extends Thread{
+	int x;
+	int answer;
+	fibo(int x)
+	{
+		this.x=x;
+	}
+	public void run() {
+		if(x<2) {
+			answer=1;
+		}
+		else {
+			fibo t1=new fibo(x-1);
+			fibo t2=new fibo(x-2);
+			t1.run();
+			t2.run();
+			answer=t1.answer+t2.answer;
+		}
+	}
+}
+
+class fact extends Thread{
+	public int run(int n) {
+if(n<1) {
+	return 1;
+	
+}
+else {
+	return n*run(n-1);
+}
+	}
+}
+
+public class P {
+
+	public static void main(String[] args) {
+	for( int i=0;i<10;i++) {
+		fibo f=new fibo(i);
+		f.run();
+		System.out.println(f.answer);
+	}
+		fact ob=new fact();
+		System.out.println(ob.run(5));
+
+	}
+
+}

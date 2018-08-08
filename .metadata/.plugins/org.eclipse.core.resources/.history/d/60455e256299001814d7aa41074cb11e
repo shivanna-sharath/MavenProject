@@ -1,0 +1,60 @@
+class first1 extends Thread {
+	public void run() {
+		for (int i = 2; i < 10; i++) {
+			System.out.println(i);
+			try {
+				Thread.sleep(5000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+}
+
+class second2 extends Thread {
+	int sum = 1;
+
+	public void run() {
+
+	}
+
+}
+
+class third {
+	int number;
+	int result=1;
+	int flag;
+
+	synchronized public void met1() throws InterruptedException {
+		if (flag == 0) {
+			wait();
+		}
+		number++;
+		flag = 0;
+		notify();
+	}
+	synchronized public void met2() throws InterruptedException {
+		if( flag==1) {
+			wait();
+		}
+		result=1;
+		for(int i=number;i>0;i--) {
+			result=result*(i);
+		}
+	}
+	
+}
+
+public class Exc {
+
+	public static void main(String[] args) throws InterruptedException {
+		first a = new first();
+		second b = new second();
+		a.start();
+		Thread.sleep(2000);
+		b.start();
+
+	}
+
+}

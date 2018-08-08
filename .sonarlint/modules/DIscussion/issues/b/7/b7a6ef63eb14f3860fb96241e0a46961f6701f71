@@ -1,0 +1,14 @@
+
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸËÁ›ûÿÿÿÿ8–ÛÒ•Ñ,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(°˜¢Úşÿÿÿÿ
+]
+squid:S106$";Replace this usage of System.out or System.err by a logger.(İ¯•ùùÿÿÿÿ8ºåÍ•Ñ,
+]
+squid:S106&";Replace this usage of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ8´ó›Ñ,
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(úæ»¼
+X
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(…í£ë8–ÛÒ•Ñ,
+]
+squid:S106";Replace this usage of System.out or System.err by a logger.(àÕêåşÿÿÿÿ8ûüá›Ñ,
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8¥ÓšœÑ,
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¥ÓšœÑ,

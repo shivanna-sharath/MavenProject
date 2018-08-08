@@ -1,0 +1,6 @@
+
+Osquid:UselessParenthesesCheck"!Remove those useless parentheses.(àõùÿÿÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+=squid:S1481"&Remove this unused "e" local variable.(—áÙÜ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¿†Åï
+osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷¹°×

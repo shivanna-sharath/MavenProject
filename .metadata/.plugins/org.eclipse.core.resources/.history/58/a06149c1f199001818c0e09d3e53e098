@@ -1,0 +1,35 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Lmap {
+
+	public static void main(String[] args) {
+    Scanner in=new Scanner(System.in);
+    
+    String s=in.nextLine();
+    String ss;
+    HashMap<String,Integer> a=new HashMap<String,Integer>();
+    Integer flag;
+    for( int i=0;i<s.length()-2;i++) {
+             ss=s.substring(i,i+3);	
+             flag=a.get(ss);
+             if(flag==null) {
+            	 a.put(ss,1);
+             }
+             else {
+            	 flag++;
+            	 a.put(ss,flag);
+             }
+    }
+Iterator<String> g= a.keySet().iterator();
+while(g.hasNext()) {
+	ss=g.next();
+	if(a.get(ss)>1) {
+		System.out.println(ss+ "  "+a.get(ss));
+	}
+}
+
+	}
+
+}

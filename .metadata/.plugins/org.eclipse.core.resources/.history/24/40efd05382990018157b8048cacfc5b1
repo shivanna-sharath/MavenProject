@@ -1,0 +1,41 @@
+class first extends Thread{
+	public void run() {
+		int fir=0;
+		int sec=1;
+		int sum;
+		for(int i=0;i<10;i++) {
+		sum=fir+sec;
+		fir=sec;
+		sec=sum;
+		}
+		
+		
+	}
+}
+class second extends Thread{
+	public void run() {
+		int n=5;
+		int result=1;
+		for(int i=n;i>0;i--) {
+			result=result*i;
+		}
+		
+	}
+	
+}
+
+
+
+
+public class N {
+
+	public static void main(String[] args) {
+		first a=new first();
+		second b=new second();
+			
+			}
+		}
+
+
+
+

@@ -1,0 +1,24 @@
+#surefire
+#Fri Jul 20 16:17:34 IST 2018
+testClassesDirectory=C\:\\Users\\M1046989\\eclipse-workspace\\com.mindtree.sdet\\target\\test-classes
+classPathUrl.2=C\:\\Users\\M1046989\\.m2\\repository\\junit\\junit\\3.8.1\\junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\Users\\M1046989\\eclipse-workspace\\com.mindtree.sdet\\target\\classes
+reportsDirectory=C\:\\Users\\M1046989\\eclipse-workspace\\com.mindtree.sdet\\target\\surefire-reports
+classPathUrl.0=C\:\\Users\\M1046989\\eclipse-workspace\\com.mindtree.sdet\\target\\test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\Users\\M1046989\\eclipse-workspace\\com.mindtree.sdet\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\M1046989\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.12.4\\surefire-api-2.12.4.jar
+surefireClassPathUrl.0=C\:\\Users\\M1046989\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.12.4\\surefire-junit3-2.12.4.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+tc.0=MavenDemo.com.mindtree.sdet.AppTest
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+runStatisticsFile=C\:\\Users\\M1046989\\eclipse-workspace\\com.mindtree.sdet\\.surefire-191F4897FCB7753005DF78311E72BF5A12B58A4F
+includes0=**/Test*.java
+childDelegation=false

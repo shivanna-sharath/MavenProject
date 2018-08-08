@@ -1,0 +1,69 @@
+package SeleniumProj.Session;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Assignment3 {
+static	WebDriver driver;
+	static WebElement e;
+	 public void met1() {
+		  String s=driver.findElement(By.xpath("//li[@id='menu-item-15']")).getText();
+		  System.out.println(s);
+		  String s1=driver.findElement(By.xpath("//li[@id='menu-item-33']")).getText();
+		  System.out.println(s1);
+		  String s2=driver.findElement(By.xpath("//li[@id='menu-item-16']")).getText();
+		  System.out.println(s2);
+		  String s3=driver.findElement(By.xpath("//li[@id='menu-item-72']")).getText();
+		  System.out.println(s3);
+		  driver.findElement(By.xpath("//li[@id='menu-item-33']")).click();
+	  }
+	 public void met2() {
+		 String s=driver.findElement(By.xpath("//li[@id='menu-item-34']")).getText();
+		 System.out.println(s);
+		 s=driver.findElement(By.xpath("//li[@id='menu-item-35']")).getText();
+		 System.out.println(s);
+		  s=driver.findElement(By.xpath("//li[@id='menu-item-36']")).getText();
+		 System.out.println(s);
+		  s=driver.findElement(By.xpath("//li[@id='menu-item-37']")).getText();
+		 System.out.println(s);
+	   s=driver.findElement(By.xpath("//li[@id='menu-item-38']")).getText();
+		 System.out.println(s);
+	 }
+	 
+		
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path);
+		driver=new ChromeDriver();
+		driver.get("https://toolsqa.com/)");
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//ul[@id='primary-menu'] //span[contains(text(),'DEMO SITES')]")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//li[@class='menu-item menu-item-type-custom menu-item-object-custom menu-item-21575 first'] //span[contains(text(),'E-Commerce Demo Site')]")).click();
+		driver.get("http://store.demoqa.com/");
+		Assignment3 a=new Assignment3();
+		a.met1();
+		Actions action=new Actions(driver);
+	action.moveToElement(driver.findElement(By.xpath("//li[@id='menu-item-33']"))).build().perform();
+			a.met2();
+		/*	 driver.findElement(By.xpath("//li[@id='menu-item-34']")).click();
+			 driver.findElement(By.xpath("//li[@id='menu-item-35']")).click();
+		
+			  driver.findElement(By.xpath("//li[@id='menu-item-36']")).click();
+	
+			  driver.findElement(By.xpath("//li[@id='menu-item-37']")).click();
+		
+		   driver.findElement(By.xpath("//li[@id='menu-item-38']")).click();
+			*/
+		
+		
+		
+	}
+
+}

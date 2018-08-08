@@ -1,0 +1,16 @@
+
+Wsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8âËÍÑ,
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(î´âµúÿÿÿÿ8âËÍÑ,
+csquid:S2134"EStop extending the Thread class as the "run" method is not overridden(šè£­8âËÍÑ,
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(šè£­8âËÍÑ,
+Usquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8âËÍÑ,
+qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(’ƒÄÜ8âËÍÑ,
+csquid:S2134	"EStop extending the Thread class as the "run" method is not overridden(¼ñÍ8âËÍÑ,
+Usquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8âËÍÑ,
+lsquid:S00101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¼ñÍ8âËÍÑ,
+1squid:S1220""Move this file to a named package.
+qsquid:ModifiersOrderCheck!"EReorder the modifiers to comply with the Java Language Specification.(õ§ˆ8âËÍÑ,
+]
+squid:S106)";Replace this usage of System.out or System.err by a logger.(Íâİèùÿÿÿÿ8âËÍÑ,
+Qsquid:S11181":Add a private constructor to hide the implicit public one.(ø¯ñÇ
+Wsquid:S2274#":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8âËÍÑ,

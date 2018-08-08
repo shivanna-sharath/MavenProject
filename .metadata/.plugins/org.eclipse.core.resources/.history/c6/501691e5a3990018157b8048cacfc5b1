@@ -1,0 +1,13 @@
+package Example;
+
+
+public class Main {
+	public static void main(String [] args) throws ClassNotFoundException, SQLException
+	{
+
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/diagnostic_centre", "root", "Welcome123");
+		Statement stmt = con.createStatement(); // crating statement (statement may be simple or prepared)
+	}
+
+}

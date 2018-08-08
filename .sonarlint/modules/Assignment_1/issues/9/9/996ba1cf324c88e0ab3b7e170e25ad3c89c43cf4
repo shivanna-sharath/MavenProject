@@ -1,0 +1,20 @@
+
+]squid:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Ysquid:S1854Q"6Remove this useless assignment to local variable "t1".(ó­šÒùÿÿÿÿ8îêæıĞ,
+Qsquid:S1161":Add the "@Override" annotation above this method signature(“–ış
+?squid:S1148""#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªØŸ¨
+1squid:S1220""Move this file to a named package.
+Jsquid:S1481Q"'Remove this unused "t1" local variable.(ó­šÒùÿÿÿÿ8îêæıĞ,
+jsquid:S00101*"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’ç°îøÿÿÿÿ
+Wsquid:S2274@":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8ø‡ÿıĞ,
+Qsquid:S1161":Add the "@Override" annotation above this method signature(“–ış
+Wsquid:S22747":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8ø‡ÿıĞ,
+qsquid:ModifiersOrderCheck>"EReorder the modifiers to comply with the Java Language Specification.(õ§ˆ8Ü½¬şĞ,
+qsquid:ModifiersOrderCheck5"EReorder the modifiers to comply with the Java Language Specification.(’ƒÄÜ8Ü½¬şĞ,
+]squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+V
+squid:S106F";Replace this usage of System.out or System.err by a logger.(Íâİèùÿÿÿÿ
+Vsquid:S1118M":Add a private constructor to hide the implicit public one.(Ê÷æÃûÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(şíÚÄ
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

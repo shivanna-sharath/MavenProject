@@ -1,0 +1,29 @@
+
+
+//from  w ww .j  a v  a  2  s .  c  om
+public class Pract {
+public  static void main(String[] args)
+{
+	int a[][]= {{1,2,3,4},{5,6,7,8},{0,1,2,3}};
+	int b[][]= new int[3][4];
+	int r0=3;
+	int k=0;
+	for( int i=0;i<3;i++) {
+		k=0;
+		for(int j=r0;j<4;j++) {
+			b[i][k]=a[i][k];
+			k++;
+		}
+		for( int j=0;j<r0;j++) {
+			b[i][k]=a[i][j];
+			k++;
+		}
+	}
+	for( int i=0;i<3;i++) {
+		for(int j=0;j>4;j++) {
+			System.out.println(b[i][j]);
+		}
+	}
+}
+}
+

@@ -1,0 +1,6 @@
+
+rsquid:UselessImportCheck	"BRemove this unused import 'org.openqa.selenium.support.ui.Select'.(´—âÛøÿÿÿÿ8àÀËĞ,
+Dsquid:S1481"&Remove this unused "e" local variable.(—áÙÜ8²–ÊĞ,
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(¶Àá·ÿÿÿÿÿ
+Vsquid:UselessParenthesesCheck"!Remove those useless parentheses.(àõùÿÿÿÿÿÿ8²–ÊĞ,
+osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(µòÔ 

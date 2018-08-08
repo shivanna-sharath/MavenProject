@@ -1,0 +1,19 @@
+package SeleniumProj.Session;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",path);
+		WebDriver driver;
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+driver.get("https://www.amazon.com");
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷¹°×
+esquid:S00101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(“³ÁÙ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(®Ü¸
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+Q
+squid:S1068";Replace this usage of System.out or System.err by a logger.(‡¤Ÿ”
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Osquid:UselessParenthesesCheck"!Remove those useless parentheses.(àõùÿÿÿÿÿÿ
+V
+squid:S1060";Replace this usage of System.out or System.err by a logger.(ôË‚ıøÿÿÿÿ
+Q
+squid:S106";Replace this usage of System.out or System.err by a logger.(‚ÉüÇ
+V
+squid:S1064";Replace this usage of System.out or System.err by a logger.(Ë£€“ıÿÿÿÿ
+gsquid:S1132/"KMove the "false" string literal on the left side of this string comparison.(Ó©é¦øÿÿÿÿ

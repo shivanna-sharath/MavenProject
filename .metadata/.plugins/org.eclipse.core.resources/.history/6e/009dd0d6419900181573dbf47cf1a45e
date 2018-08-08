@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+class student{
+	String name;
+	int age;
+
+	public student(String name,int age){
+		this.name=name;
+		this.age=age;
+	}
+}
+
+
+class Pract {
+	public static void main(String[] args) {
+	ArrayList<student> ar=new ArrayList<student>();
+ ar.add(new student("sharath",21));
+ ar.add(new student("nandan",22));
+ Collections.sort(ar,new sortbyage());
+ for( int i=0;i<ar.size();i++) {
+	 
+ }
+ 
+ }
+}
+
+class sortbyage implements Comparator<student> {
+	public int compare(student a, student b)
+    {
+        return a.name.compareTo(b.name);
+    }
+
+	
+	}
+	
+
+
+	
+
+	
+

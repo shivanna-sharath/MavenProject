@@ -1,0 +1,21 @@
+
+Osquid:UselessParenthesesCheck!"!Remove those useless parentheses.(àõùÿÿÿÿÿÿ
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+Q
+squid:S106";Replace this usage of System.out or System.err by a logger.(‚ÉüÇ
+V
+squid:S1062";Replace this usage of System.out or System.err by a logger.(ôË‚ýøÿÿÿÿ
+V
+squid:S1065";Replace this usage of System.out or System.err by a logger.(Ë£€“ýÿÿÿÿ
+Q
+squid:S1068";Replace this usage of System.out or System.err by a logger.(‡¤Ÿ”
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(†·ÝÞ
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(ÃË¤ô
+gsquid:S11321"KMove the "false" string literal on the left side of this string comparison.(Ó©é¦øÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(þ ©³ýÿÿÿÿ
+jsquid:S00101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯á·âþÿÿÿÿ
+osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷¹°×

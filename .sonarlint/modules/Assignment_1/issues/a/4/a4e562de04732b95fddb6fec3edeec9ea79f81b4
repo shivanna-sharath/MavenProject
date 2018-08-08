@@ -1,0 +1,17 @@
+
+qsquid:S00101C"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÙûÑøÿÿÿÿ8ŠÁËïĞ,
+wsquid:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ¸œç8ŞƒÎîĞ,
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(±ÌÜ°8»­‡ğĞ,
+]
+squid:S1062";Replace this usage of System.out or System.err by a logger.(©Ÿ¹•ÿÿÿÿÿ8ŠÁËïĞ,
+Osquid:S1172",Remove this unused method parameter "name2".(÷óÁ»úÿÿÿÿ8ŠÁËïĞ,
+]squid:S1118%":Add a private constructor to hide the implicit public one.(ìü‚İşÿÿÿÿ8ŞƒÎîĞ,
+]
+squid:S1068";Replace this usage of System.out or System.err by a logger.(©Ÿ¹•ÿÿÿÿÿ8ì¸®ïĞ,
+Xsquid:S1161>":Add the "@Override" annotation above this method signature(ÕÇãí8£Ê­ïĞ,
+1squid:S1220""Move this file to a named package.
+Vsquid:S1213"8Move this variable to comply with Java Code Conventions.(¯Ó¶»8»­‡ğĞ,
+lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(çåîé8ŞƒÎîĞ,
+qsquid:S00101="MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘§†îûÿÿÿÿ8£Ê­ïĞ,
+^squid:S1213";Move this constructor to comply with Java Code Conventions.(ì—ß´ıÿÿÿÿ8»­‡ğĞ,
+Xsquid:S1161D":Add the "@Override" annotation above this method signature(ÕÇãí8ŠÁËïĞ,

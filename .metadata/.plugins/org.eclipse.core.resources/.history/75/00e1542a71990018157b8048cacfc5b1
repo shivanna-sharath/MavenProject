@@ -1,0 +1,22 @@
+
+public class N {
+
+	public static void main(String[] args) {
+		String n="1233445563212344123";
+		n=n.replace("123","x" );
+		System.out.println(n);
+	int	count=0;
+		for(int i=0;i<n.length();i++) {
+			if(n.charAt(i)==('x')) {
+				count++;
+			}
+				
+			}
+			System.out.println(count);
+				
+			}
+		}
+
+
+
+

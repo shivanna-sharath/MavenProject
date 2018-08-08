@@ -1,0 +1,42 @@
+package SeleniumProj.Session;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Gmail {
+
+	public static void main(String[] args){
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path);
+		WebElement e;
+		driver = new ChromeDriver();
+		driver.get("https://www.gmail.com");
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@class='whsOnd zHQkBf']")));
+		e.sendKeys("sharuaekangi.1111@gmail.com");
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='identifierNext'] ")));
+		e.click();
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@jsname='YPqjbf']")));
+		e.sendKeys("leave me alone");
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='RveJvd snByac']")));
+		e.click();
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='aKw']")));
+		String g = e.getText();
+		System.out.println(g);
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='ts'][2]")));
+		String f = e.getText();
+		System.out.println(f);
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tr[@class='zA yO']")));
+		e.click();
+		e = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[@id=':ll']")));
+		String k = e.getText();
+		System.out.println(k);
+	}
+
+}

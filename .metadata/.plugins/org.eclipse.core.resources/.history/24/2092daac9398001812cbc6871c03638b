@@ -1,0 +1,36 @@
+package com.mindtree.Work;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Assignment3W {
+
+	public static void main(String[] args) {
+		WebDriver driver;
+		WebElement e;
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path);
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+		driver.get("http://newtours.demoaut.com/");
+		driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("mercury");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("mercury");
+		driver.findElement(By.xpath("//input[@name='login']")).click();
+		driver.findElement(By.xpath("//select[@name='passCount'] //option[@value='4']")).click();
+		driver.findElement(By.xpath("//select[@name='fromPort'] //option[@value='New York']")).click();
+		driver.findElement(By.xpath("//select[@name='fromMonth'] //option[@value='11']")).click();
+		driver.findElement(By.xpath("//select[@name='fromDay'] //option[@value='19']")).click();
+		driver.findElement(By.xpath("//select[@name='toPort'] //option[@value='London']")).click();
+		driver.findElement(By.xpath("//select[@name='toMonth'] //option[@value='11']")).click();
+		driver.findElement(By.xpath("//select[@name='toDay'] //option[@value='20']")).click();
+		driver.findElement(By.xpath("//input[@value='First']")).click();
+		driver.findElement(By.xpath("//select[@name='airline'] //option[@value='3']")).click();
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.mindtree.manager;
+
+import com.mindtree.dao.FromDataBase;
+
+public class DisplayPlayer {
+	public void DisplayPlayerMet() {
+		FromDataBase g=new FromDataBase();
+		g.FromDataBaseMet();
+		
+		
+	}
+
+	
+}

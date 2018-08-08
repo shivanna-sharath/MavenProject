@@ -1,0 +1,30 @@
+package com.mindtree.Utility;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.mindtree.TestObject.Page1;
+
+public class Main {
+	 static WebDriver driver;
+	static WebElement e;
+	public static void main(String[] args) {
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path);
+		 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy");  
+		   LocalDateTime now = LocalDateTime.now();  
+		   String g=(dtf.format(now)); 
+		driver = new ChromeDriver();
+		driver.get("https://corpapps.mindtree.com/ams");
+		
+		Page1 a=new Page1();
+		a.met1(driver);
+
+
+	}
+
+}

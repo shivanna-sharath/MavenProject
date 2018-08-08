@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+//from  w ww .j  a v  a  2  s .  c  om
+ class Pract {
+	int sum;
+	Scanner in=new Scanner(System.in);
+	int hra=in.nextInt();
+	int basic=in.nextInt();
+	void cal() {
+		sum=(basic*hra)+basic;
+		System.out.println(sum);
+	}
+ }
+	class inher extends Pract{
+		int gross;
+		int da=in.nextInt();
+		void calci() {
+			super.cal();
+			gross=sum+(basic*da);
+			System.out.println(gross);
+		}
+	
+	
+	
+	
+	
+	
+	
+public  static void main(String[] args)
+{
+inher i=new inher();
+i.calci();
+
+
+}
+}
+

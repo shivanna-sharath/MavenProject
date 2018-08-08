@@ -1,0 +1,37 @@
+package SeleniumProj.Session;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment3 {
+static	WebDriver driver;
+	static WebElement e;
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path);
+		driver=new ChromeDriver();
+		driver.get("https://toolsqa.com/)");
+		driver.findElement(By.xpath("//ul[@id='primary-menu'] //span[contains(text(),'DEMO SITES')]")).click();
+		Thread.sleep(7000);
+		driver.findElement(By.xpath("//li[@class='menu-item menu-item-type-custom menu-item-object-custom menu-item-21575 first'] //span[contains(text(),'E-Commerce Demo Site')]")).click();
+		Thread.sleep(7000);
+		driver.get("http://store.demoqa.com/");
+		navigate a=new navigate();
+		a.met1();
+		driver.findElement(By.xpath("//nav[@class='group')] //span[contains(text(),'Product Category')]")).click();
+		
+		
+	}
+
+}
+class navigate extends Assignment3{
+  public void met1() {
+	  
+  }
+	
+}

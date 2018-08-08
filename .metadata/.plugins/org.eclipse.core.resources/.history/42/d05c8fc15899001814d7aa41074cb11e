@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class D {
+
+	public static void main(String[] args) {
+		String s="abc def ghi";
+		ArrayList<String> a=new ArrayList();
+		a.add(s);
+		
+		
+
+
+	}
+}
+	
+	
+

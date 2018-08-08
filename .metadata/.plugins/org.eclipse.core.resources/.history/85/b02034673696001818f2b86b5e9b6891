@@ -1,0 +1,10 @@
+public class D {
+
+	public static void main(String[] args) {
+
+		// TODO Auto-gene
+
+String s= "abc def ghi";
+	}
+	
+}

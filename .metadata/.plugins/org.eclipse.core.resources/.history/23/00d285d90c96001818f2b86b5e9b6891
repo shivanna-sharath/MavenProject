@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   
+    <parameter name="Fdate" value="">02/08/2018</parameter>
+    <parameter name="Tdate" value="">02/08/2018</parameter>
+      <class name="automation.NewTest2"/>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

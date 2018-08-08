@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+class first extends Thread{
+	public void run() {
+		int a=0;
+		int b=1;
+		int c;
+		for (int i=0;i<10;i++) {
+			c=a+b;
+			System.out.println(c);
+			a=b;
+			b=c;
+		}
+	}
+}
+
+
+
+
+public class D {
+
+	public static void main(String[] args) {
+		first a=new first();
+		a.start();
+		
+	
+		
+		
+
+
+	}
+}
+	
+	
+

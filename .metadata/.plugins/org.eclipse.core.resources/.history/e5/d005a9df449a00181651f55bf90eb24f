@@ -1,0 +1,11 @@
+package com.mindtree.manager;
+
+import com.mindtree.dao.DeleteFromDataBase;
+
+public class DeleteFromTable {
+	public void DeleteFromTableMet() {
+		DeleteFromDataBase a=new DeleteFromDataBase();
+		a.DeleteDataBaseMet(); 
+	}
+
+}

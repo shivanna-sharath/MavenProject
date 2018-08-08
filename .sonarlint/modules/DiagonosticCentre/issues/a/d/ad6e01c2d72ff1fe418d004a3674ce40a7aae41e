@@ -1,0 +1,8 @@
+
+3squid:S2095"Close this "Statement".(¦èåÍúÿÿÿÿ
+_squid:S2077"H"inp" is provided externally to the method and not sanitized before use.(€¤€§
+’"squid:ClassVariableVisibilityCheck"_Make queryToSelectnumber a static final constant or non-public and provide accessors if needed.(€¶¢‹ýÿÿÿÿ
+esquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ£Æc
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
+¥squid:S1160"ŽRefactor this method to throw at most one checked exception instead of: java.sql.SQLException, com.mindtree.exception.InvalidTestNameException(ˆ£Æc
+.squid:S2095"Close this "ResultSet".(€¤€§

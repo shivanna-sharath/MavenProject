@@ -1,0 +1,15 @@
+package com.mindtree.main;
+
+import com.mindtree.Utility.Const;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Const a=new Const();
+		a.met1();
+		
+
+	}
+
+}

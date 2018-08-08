@@ -1,0 +1,64 @@
+package automation;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+
+import java.util.NoSuchElementException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+
+public class NewTest {
+	public WebDriver driver;
+
+	@Test
+	public void f() {
+		driver.findElement(By.xpath("//div[@id='account']")).click();
+		driver.findElement(By.xpath("//div[@id='login_wrapper']// input[@type='text']")).sendKeys("sharath");
+		driver.findElement(By.xpath("//div[@id='login_wrapper']// input[@type='password']")).sendKeys("sharath");
+		driver.findElement(By.xpath("//div[@id='login_wrapper']// input[@type='submit']")).click();
+	}
+	@Test
+	public void g() {
+		try {
+			Thread.sleep(5000);
+			WebElement res = driver.findElement(By.linkText("Lost your password?"));
+			System.out.println("invalid user name");
+		} catch (NoSuchElementException e) {
+			System.out.println("login sucess");
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	@BeforeMethod
+	public void beforeMethod() {
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path);
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(" https://store.demoqa.com/");
+		try {
+			Thread.sleep(2500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+		driver.close();
+	}
+	public static void main() {
+		NewTest met1= new NewTest();
+		met1.f();
+		met1.g();
+	}
+
+}

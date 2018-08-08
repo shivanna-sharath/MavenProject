@@ -1,0 +1,11 @@
+package com.mindtree.dao;
+
+public class ToDataBase {
+	
+
+	public void todatabasemet(int id, String name, String score, String wickets) {
+		
+		
+	}
+
+}

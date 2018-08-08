@@ -1,0 +1,11 @@
+package com.mindtree.TestObject;
+
+import com.mindtree.Utility.Main;
+
+public class Page extends Main {
+	public void met1() {
+		
+	}
+	
+
+}

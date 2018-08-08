@@ -1,0 +1,43 @@
+package SeleniumAssignment;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Assi1 {
+  
+ 
+	public void met1() {
+		WebDriver driver;
+		driver=new FirefoxDriver();
+	
+	}
+	public void met2() {
+		String path = ("C:\\Users\\M1046989\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path);
+		WebDriver driver1;
+		driver1=new ChromeDriver();
+		
+	}
+	public void met3() {
+		String path="C:\\Users\\M1046989\\Desktop";
+		System.setProperty("webdriver.edge.driver",path );
+		WebDriver driver;
+		driver = new EdgeDriver();
+	
+	}
+	public static void main(String[] args) {
+	Assi1 a=new Assi1();
+	//a.met1();
+	
+	a.met2();
+	
+
+	a.met3();
+
+	
+
+	}
+
+}

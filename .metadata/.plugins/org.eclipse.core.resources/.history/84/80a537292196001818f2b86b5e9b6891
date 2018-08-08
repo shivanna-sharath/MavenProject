@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+class obj{
+	
+}
+
+public class D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+List<obj> l=new ArrayList();
+ArrayList<Integer> ar=new ArrayList();
+	}
+
+}

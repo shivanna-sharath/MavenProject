@@ -1,0 +1,7 @@
+
+osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷¹°×
+Osquid:UselessParenthesesCheck"!Remove those useless parentheses.(òˆ­Åüÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ËŠÍùÿÿÿÿ
+Osquid:UselessParenthesesCheck"!Remove those useless parentheses.(àõùÿÿÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æö·Ôüÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ

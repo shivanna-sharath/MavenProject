@@ -1,0 +1,11 @@
+
+public class N {
+
+	public static void main(String[] args) {
+		String n="1233445563212344123";
+		n=n.replace("123","x" );
+		
+
+	}
+
+}
